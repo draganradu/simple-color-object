@@ -8,7 +8,6 @@ module.exports = [
     ['c:10m:20k:50y:6', { format: 'cmyk' }],
     ['c10m20k50y6', { format: 'cmyk' }],
     ['cmyk(39 0 39 7)', { format: 'cmyk' }],
-    ['cmyk(39|0|39|7)', { format: 'cmyk' }],
     ['cmyk(39,0,39,7)', { format: 'cmyk' }],
     ['cmyk(39/0/39/7)', { format: 'cmyk' }],
     ['cmyk(39;0;39;7)', { format: 'cmyk' }],

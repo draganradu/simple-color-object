@@ -16,10 +16,22 @@ class _this {
                 return this.succesfull + this.faild
             }
         }
+
+        this.buildPageStart();
     }
 
     addline(a) {
         this.output.push(this.tableDivider + a.join(this.tableDivider) + this.tableDivider + this.newline)
+    }
+
+    buildTableHead() {
+        this.addline(["Input value","detect as"])
+        this.addline(["----","----"])
+    }
+
+    buildPageStart() {
+        this.output.push("# Accepted String Values." + this.newline)
+        this.output.push(this.newline) 
     }
 
     buildFooter() {

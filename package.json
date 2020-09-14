@@ -1,8 +1,8 @@
 {
   "name": "simple_color_object",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "Modern javascript color conversion",
+  "main": "objective-color.js",
   "scripts": {
     "test": "node test/index.test.js"
   },
