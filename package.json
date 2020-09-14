@@ -1,6 +1,6 @@
 {
   "name": "simple_color_object",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Modern javascript color conversion",
   "main": "objective-color.js",
   "scripts": {
