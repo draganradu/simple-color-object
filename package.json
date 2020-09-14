@@ -1,0 +1,14 @@
+{
+  "name": "simple_color_object",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "color_library": "0.0.2"
+  }
+}
